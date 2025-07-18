@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 # Load a pre‑trained multilingual model (once at startup)
 @st.cache_resource
 def load_model():
-    return SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
+    return SentenceTransformer('sangambhamare/MarathiSentenceSimilarity')
 
 model = load_model()
 
